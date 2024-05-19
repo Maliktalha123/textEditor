@@ -8,10 +8,8 @@ let text = document.getElementById("writtenText");
 let input = document.getElementById("input");
 // EvenListners
 function eee() {
-  console.log(input.value);
-  text.innerHTML = input.value
+  text.innerHTML = input.value;
 }
-
 
 heading.addEventListener("click", () => {
   operating();
